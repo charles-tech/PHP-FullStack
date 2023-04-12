@@ -1,0 +1,42 @@
+body {
+  background: rgb(24, 184, 187);
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2%;
+}
+.principal {
+  display: flex;
+  justify-content: center;
+}
+.formulario {
+  border: 1px solid rgb(52, 50, 214);
+  padding: 35px;
+  padding-bottom: 4%;
+  padding-left: 5%;
+  border-radius: 5px;
+  background: blueviolet;
+
+  justify-content: center;
+}
+
+label {
+  color: white;
+  font-weight: bold;
+}
+
+input {
+  border-radius: 5px;
+  width: 80%;
+  height: 07%;
+}
+.botao {
+  padding: 10px;
+  background: green;
+  color: white;
+}
+.divBotao {
+  display: flex;
+  justify-content: center;
+}

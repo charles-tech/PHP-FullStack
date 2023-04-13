@@ -13,30 +13,43 @@ h2 {
 .formulario {
   border: 1px solid rgb(52, 50, 214);
   padding: 35px;
-  padding-bottom: 4%;
-  padding-left: 5%;
-  border-radius: 5px;
-  background: blueviolet;
+  padding-bottom: 70px;
+  padding-right: 1px;
+
+  border-radius: 15px;
+  background: rgb(57, 220, 25);
 
   justify-content: center;
 }
 
 label {
-  color: white;
+  color: rgb(19, 18, 18);
   font-weight: bold;
 }
 
-input {
+.styles {
   border-radius: 5px;
   width: 80%;
   height: 07%;
 }
+select {
+  border-radius: 5px;
+  width: 82%;
+  height: 9%;
+}
+
 .botao {
   padding: 10px;
-  background: green;
+  background: rgb(190, 18, 55);
   color: white;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
 }
 .divBotao {
   display: flex;
   justify-content: center;
+  margin-right: 30px;
 }
